@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <form action="{{route('store')}}" method="POST" enctype="multipart/form-data">
+    <form action="{{route('product.store')}}" method="POST" enctype="multipart/form-data">
 
         @csrf
 
